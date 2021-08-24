@@ -27,3 +27,7 @@ station |
 
 Bike <-- bike_working? --> true/false
 Docking station <-- release_bike --> a Bike
+
+# set variable docking_station equal to new DockingStation object
+
+docking_station = DockingStation.new 
